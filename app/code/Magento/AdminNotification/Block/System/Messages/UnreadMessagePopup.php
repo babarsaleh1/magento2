@@ -92,3 +92,4 @@ class UnreadMessagePopup extends \Magento\Backend\Block\Template
         return $this->_itemClasses[$message->getSeverity()];
     }
 }
+  return $this->_itemClasses[$message->getSeverityfix()]
